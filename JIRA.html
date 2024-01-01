@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kanban Board</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+
+    <div class="toolbox-cont">
+        <div class="toolbox-priority-cont">
+            <div class="color red"></div>
+            <div class="color lightblue"></div>
+            <div class="color grey"></div>
+            <div class="color black"></div>
+        </div>
+
+        <div class="toolbox-action-cont">
+            <div class="add-btn">
+                <i class="fa-solid fa-plus"></i>
+            </div>
+            <div class="remove-btn">
+                <i class="fa-solid fa-trash"></i>
+            </div>
+        </div>
+    </div>
+
+    <div class="main-cont">
+        <!-- <div class="ticket-cont">
+            <div class="ticket-color"></div>
+            <div class="ticket-id">#5G7494</div>
+            <div class="ticket-area">Learn HTML</div>
+        </div> -->
+              
+    </div>
+
+    <div class="add-task-popup">
+        <textarea class="textBox" placeholder="Enter Your Task"></textarea>
+        <div class="colors">
+            <div class="priority-color red"></div>
+            <div class="priority-color lightblue"></div>
+            <div class="priority-color grey"></div>
+            <div class="priority-color black"></div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/short-unique-id@latest/dist/short-unique-id.min.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
